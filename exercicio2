@@ -1,0 +1,55 @@
+**1.** O que é o **Node.js**?
+Explique sua finalidade e por que ele é considerado um ambiente de execução e não uma linguagem de programação.
+
+O Node.js é um ambiente de execução (runtime environment) de código aberto e multiplataforma que permite aos desenvolvedores executarem código JavaScript fora de um navegador web. Ele é construído sobre o motor V8 do Google Chrome (que compila JavaScript diretamente para código de máquina nativo) e é amplamente utilizado para criar aplicações de back-end rápidas e escaláveis. 
+---
+
+**2.** Qual a diferença entre **Node.js** e **JavaScript executado no navegador**?
+Cite pelo menos **duas diferenças**.
+Embora ambos utilizem a linguagem JavaScript e o motor V8 (no caso do Chrome/Node.js), o Node.js e o JavaScript no navegador operam em ambientes completamente diferentes, com propósitos distintos. 
+---
+
+**3.** O que é o **V8 Engine** e qual sua importância para o funcionamento do Node.js?
+O V8 Engine é um mecanismo de JavaScript (JavaScript engine) de alto desempenho, código aberto (open-source), desenvolvido pelo Google em C++. Ele é o motor que interpreta e executa o código JavaScript, sendo o componente central tanto do navegador Google Chrome quanto do ambiente de tempo de execução Node.js. 
+---
+
+**4.** Explique o conceito de **I/O não bloqueante** no Node.js.
+Por que isso melhora o desse
+empenho de aplicações?
+O I/O (Input/Output) não bloqueante é um dos pilares fundamentais do Node.js, permitindo que o ambiente de execução manipule operações de entrada e saída (como leitura de arquivos, consultas ao banco de dados ou requisições de rede) sem interromper a execução do código principal. 
+---
+
+**5.** O que é o **Event Loop**?
+Descreva, de forma resumida, como ele funci
+ona.
+é o mecanismo central no JavaScript que permite a execução de operações assíncronas e não bloqueantes, mesmo sendo uma linguagem de thread única (single-threaded).
+---*
+
+ 
+
+**6.** O que são **módulos** no Node.js?Explique a diferença entre:os internos* Módulos criados pelo desenvolvedor
+No Node.js, módulos são blocos de código encapsulados e reutilizáveis, organizados em arquivos separados, que permitem dividir uma aplicação em partes menores e gerenciáveis. Eles ajudam a manter o código organizado, evitam a poluição do escopo global e facilitam a manutenção. 
+
+---
+
+**7.** Para que serve o arquivo **package.json** em um projeto Node.js?
+Cite pelo menos **três informações** que ele pode conter.
+O arquivo package.json é fundamental em um projeto Node.js, servindo como o manifesto do projeto. Ele armazena metadados essenciais sobre a aplicação, gerencia dependências (bibliotecas externas), scripts de automação e define a versão do software. Ele é essencial para o funcionamento do npm ou yarn na instalação de pacotes. 
+
+---
+
+
+**8.** O que é o **npm**?
+Explique sua função no desenvolvimento de aplicações
+O npm (Node Package Manager) é o gerenciador de pacotes padrão para o ambiente de execução Node.js e o maior registro de software de código aberto do mundo. Ele é composto por uma ferramenta de linha de comando (CLI) que vem instalada automaticamente com o Node.js, facilitando a instalação, gerenciamento e compartilhamento de bibliotecas JavaScript em projetos. 
+---
+
+**9.** O que é uma **API REST** e como o Node.js pode ser usado para desenvolvê-la?
+Uma API REST (Representational State Transfer) é um conjunto de regras e convenções arquiteturais utilizado para criar serviços web que permitem a comunicação entre diferentes sistemas (como um front-end web e um servidor back-end) de forma leve, escalável e baseada no protocolo HTTP [1].
+
+
+---
+
+10.** Cite **duas vantagens** e **duas desvantagens** do uso do Node.js em aplicações web.**
+O Node.js é amplamente utilizado no desenvolvimento web devido à sua eficiência em operações de entrada/saída (I/O). Abaixo estão duas vantagens e duas desvantagens principais: 
+---
