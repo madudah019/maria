@@ -1,12 +1,16 @@
 1. Escreva um programa que mostre na tela a seguinte contagem: 6 7 8 9 10 11
 Acabou!
+
+
 for i in range(6, 12):
     print(i, end=" ")
 print("Acabou!")
 
 
-2. Faça um algoritmo que mostre na tela a seguinte contagem: 10 9 8 7 6 5 4 3
+3. Faça um algoritmo que mostre na tela a seguinte contagem: 10 9 8 7 6 5 4 3
 Acabou!
+
+
 programa {
   funcao inicio() {
     inteiro c = 10
@@ -19,15 +23,19 @@ programa {
 }
 
 
-3. Crie um aplicativo que mostre na tela a seguinte contagem: 0 3 6 9 12 15 18
+4. Crie um aplicativo que mostre na tela a seguinte contagem: 0 3 6 9 12 15 18
 Acabou!
+
+
 for i in range(0, 19, 3):
     print(i, end=" ")
 print("Acabou!")
 
 
-4. Desenvolva um programa que mostre na tela a seguinte contagem: 100 95 90 85 80
+6. Desenvolva um programa que mostre na tela a seguinte contagem: 100 95 90 85 80
 ... 0 Acabou!
+
+   
 programa {
   funcao inicio() {
     inteiro c = 100
@@ -40,8 +48,11 @@ programa {
 }
 
 
-5. Faça um algoritmo que pergunte ao usuário um número inteiro e positivo qualquer e
+8. Faça um algoritmo que pergunte ao usuário um número inteiro e positivo qualquer e
 mostre uma contagem até esse valor: Ex: Digite um valor: 35 Contagem: 1 2 3 4 5
+
+
+
 programa {
   funcao inicio() {
     inteiro valor, c = 1
@@ -59,6 +70,8 @@ programa {
 
 6.Desenvolva um algoritmo que mostre uma contagem regressiva de 30 até 1, marcando os números que são divisíveis por 4, exatamente
 como mostrado abaixo: 30 29 [28] 27 26 25 [24] 23 22 21 [20] 19 18 17 [16]...
+
+
 
 programa {
   funcao inicio() {
@@ -101,18 +114,18 @@ programa {
 
 
 
-8. Crie um algoritmo que leia o valor inicial da contagem, o valor final e o incremento,
+9. Crie um algoritmo que leia o valor inicial da contagem, o valor final e o incremento,
 mostrando em seguida todos os valores no intervalo: Ex: Digite o primeiro Valor: 3
 Digite o último Valor: 10 Digite o incremento: 2 Contagem: 3 5 7 9 Acabou!
 
 
 
 
- 9. Crie um programa que calcule e mostre na tela o resultado da soma entre 6 + 8 + 10
+ 10. Crie um programa que calcule e mostre na tela o resultado da soma entre 6 + 8 + 10
 12 + 14 + ... + 98 + 100.
 \(S_{n}=\frac{n(a_{1}+a_{n})}{2}\)\(S_{48}=\frac{48(6+100)}{2}\)\(S_{48}=24\cdot 106=2544\)
 
-10. Desenvolva um aplicativo que mostre na tela o resultado da expressão 500 + 450 +
+11. Desenvolva um aplicativo que mostre na tela o resultado da expressão 500 + 450 +
 400 + 350 + 300 + ... + 50 + 0.
 # Inicialização das variáveis
 soma = 0
