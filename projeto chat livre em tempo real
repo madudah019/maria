@@ -1,0 +1,11 @@
+/******************************************************************************
+resumo do seu projeto node . JS
+
+*******************************************************************************/
+console.log('cabeçalho do projeto vem aqui');
+console.log("escola do futuro do estado de goiás - josé luiz binttencourt");
+console.log('curso técnico de front-end e cibersegurança');
+console.log('back-End');
+console.log('George Mendes Marra');
+console.log('chat livre em tempo real');
+console.log('Maria Eduarda,Pamella,Rebeca,Nathaly,Milena,Mauricio');
